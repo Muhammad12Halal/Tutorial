@@ -15,7 +15,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" name="sender_name" placeholder="Sender Name">
                         <input type="email" class="form-control" name="sender_email" placeholder="Sender Email">
-                        <input type="email" class="form-control" name="email_hob" placeholder="Email HOB">
+                        <input type="email" class="form-control" name="email_hob" placeholder="Email HOD">
                         <br>
                         <span class="input-group-btn">
                             <button class="btn btn-primary" type="submit">Send</button>
