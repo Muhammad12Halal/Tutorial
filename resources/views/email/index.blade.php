@@ -9,6 +9,7 @@
             <div class="pull-right">
                 <a class="btn btn-warning" style="margin-top:10px;margin-bottom:10px;color:white;" href="{{ route('post.index') }}"> Back Livewire Project</a>
 
+                <h5>Send Email</h5>
                 <form action="{{ route('email.sendEmail') }}" method="GET">
                     @csrf
 
