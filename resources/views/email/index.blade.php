@@ -7,6 +7,8 @@
                 <h2>Laravel 8 Send Email</h2>
             </div>
             <div class="pull-right">
+                <a class="btn btn-warning" style="margin-top:10px;margin-bottom:10px;color:white;" href="{{ route('post.index') }}"> Back Livewire Project</a>
+
                 <form action="{{ route('email.sendEmail') }}" method="GET">
                     @csrf
 
@@ -46,7 +48,7 @@
             <th>No</th>
             <th>Sender Name</th>
             <th>Sender Email</th>
-            <th>Email HOB</th>
+            <th>Email HOD</th>
             <th>status</th>
         </tr>
         @foreach ($sendEmails as $email)
